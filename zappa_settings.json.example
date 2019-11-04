@@ -1,0 +1,16 @@
+{
+    "base": {
+        "aws_region": "eu-central-1",
+        "profile_name": "default",
+        "project_name": "uniOpenapi",
+        "s3_bucket": "zappa-uni-openapi",
+        "runtime": "python3.7"
+    },
+    "dev": {
+        "extends": "base",
+        "app_function": "OpenApiApp.app.app",
+        "certificate_arn": "arn:aws:acm:us-east-1:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+        "domain": "openapi.exampleDomain.com",
+        "route53_enabled": false
+    }
+}

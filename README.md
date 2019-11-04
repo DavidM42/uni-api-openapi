@@ -1,2 +1,2 @@
-# uni-api-openapi
-Oṕenapi aggregator and view provider for uni api microservices
+# Uni Api Openapi
+Aggregates the openapi definitions for the different smaller apis and puts them together into one

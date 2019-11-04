@@ -1,0 +1,13 @@
+flask
+# flask==1.1.0
+# marshmallow==2.20.3
+flask-smorest
+requests
+
+
+
+# development dependancies for vscode
+# virtualenv
+zappa
+rope
+pylint
